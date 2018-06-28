@@ -2,7 +2,8 @@ package dc.hack.metadata;
 
 public class MetadataReader {
 
-    public static void main(String[] args) {
-        System.out.println("Testing....");
+    public ReconMetadata  fetch(String jsonFile){
+        // populate
+        return new ReconMetadata();
     }
 }
